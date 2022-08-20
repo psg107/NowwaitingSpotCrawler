@@ -56,7 +56,8 @@ try
             Id = spotDetailResponse.Id,
             Name = spotDetailResponse.Name,
             Phone = spotDetailResponse.Phone,
-            Address = spotDetailResponse.Address
+            Address = spotDetailResponse.Address,
+            SpotType = spotDetailResponse.SpotType
         };
         context.Spots.Add(spot);
 
